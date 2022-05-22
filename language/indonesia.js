@@ -2,17 +2,17 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `🐦 Shibarakuomachikudasai~`
 }
 exports.ok = () => {
     return `✅ Done. Ok desu~`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `🗿 Fitur nya Eror Banh:v`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `☕ Link nya Eror Ancrit`
 }
 exports.media = () => {
     return `Silahkan pilih media yang ingin kamu download`
@@ -34,7 +34,7 @@ exports.cmdNotFound = (cmd, prefix) => {
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner`
+    return `❎ Lu Bukan Owner Ajg`
 }
 
 exports.doneOwner = () => {
@@ -46,7 +46,7 @@ exports.groupOnly = () => {
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `🙅  Lu Bukan Admin Dek!`
 }
 
 exports.nhFalse = () => {
@@ -68,7 +68,7 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return 'jadiin Aku admin! 🐦`
 }
 
 exports.received = (pushname) => {
@@ -85,8 +85,8 @@ exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp. 
+	return`Hai Dek ${pushname} 👋 selamat ${salam} , 
+saya ${botname}, Kamako ini adalah Bot Beta Multi-Device Whatsapp. 
 Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
 lapor owner agar segera di perbaiki 🙏      
 `
@@ -94,7 +94,7 @@ lapor owner agar segera di perbaiki 🙏
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu Kamakobot-Md :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -785,6 +785,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ My Parents
 ├ Fatih A.
 ├ Ferdi
+├ Kamako
 ├ DikaArdnt
 ├ Mhankbarbar
 ├ Nurutomo
@@ -797,71 +798,71 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 exports.rules = (prefix) => {
     return `
-*── 「 RULES AND FAQ 」 ──*
+*── 「 RULES/S&K BOT 」 ──*
 
-1. Jangan spam bot. 🙅
-Sanksi: *❎ WARN/SOFT BLOCK*
-
-2. Jangan telepon bot. ☎️
-Sanksi: *❎ SOFT BLOCK*
-
-3. Jangan mengeksploitasi bot.😖
-Sanksi: *PERMANENT BLOCK*
-
-🗯️ Bot tidak atau lambat merespon ?
-➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan. Tetap patuhi rules‼️
-
-🗯️ Dimana saya bisa mendapatkan Script dari bot ini ?
-➡️ Script ini masih private dan tidak pernah diperjual belikan ,bijaklah dalam mengetahui penipu.
-
-🗯️ Boleh saya menambah ke grup?
-➡️ Untuk sementara bot dalam status free to add.
-
-🗯️ Prefixnya apa ya?
-➡️ Bot ini menggunakan multi prefix. Berarti anda bisa menggunakan prefix #, . , Dan prefix wajar lainnya.
-
-🗯️ Kak, kok syaa chat owner tidak direspon?
-➡️ Owner hanya merespon pertanyaan seputar bot Dan kendala eror, tidak untuk kenalan ataupun mengemis script.
+*Sebelum Kamu menggunakan Bot ini Baca dulu beberapa Syarat Ketentuan,Peraturan Bot dan Kebijikan Privasi*
 
 
-Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
+Syarat Ketentuan
+1.Bot akan keluar dari group apabila sudah waktunya keluar.
+2.Bot dapan mem-ban users secara sepihak terlepas dari users salah atau tidak.
+3.Bot tidak akan bertanggungjawab atas apapun yang users lakukan terhadap fitur bot.
+4.Jika semisalkan bot di keluarkan dari group, maka masa periode di anggap sudah berakhir. Jika bot di keluarkan oleh owner atas 1 2 alasan semisal spam dari user maka silahkan kontak owner
+5.Bot akan memberlakukan hukuman: block atau ban terhadap users yang melanggar peraturan.
+6.Bertanggung jawab atas kesalahan fatal dalam programing maupun owner.
+7.Jika user dalam masa penggunaan, maka secara otomatis user telah men-setujui peraturan dan syarat ketentuan Bot
+8.beri jeda beberapa detik setelah fitur 1bergerak
 
-⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
+Peraturan Bot
+1.Users dilarang menelpon maupun memvideo call nomor bot.
+2.Users dilarang mengirimkan berbagai bug, virtex, dll ke nomor bot.
+3.Users diharap tidak melakukan spam dalam penggunaan bot.
+4.Users dilarang menambahkan nomor bot secara illegal, untuk menambahkan silahkan hubungi owner.
+5.Users diharap untuk tidak menyalah gunakan fitur fitur bot.
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
-😖🙏
+Kebijakan Privasi
+1.Tidak akan merekam data riwayat chat user.
+2.Tidak akan menyebarkan nomor users.
+3.Bot tidak akan menyimpan media yang dikirimkan oleh users.
+4.Bot tidak akan menyalah gunakan data data users.
+5.Owner Bot berhak melihat data riwayat chat users.
+6.Owner Bot berhak melihat status users.
+7.Owner Bot dapat melihat riwayat chat, dan media yang dikirimkan users.
 `
 }
 exports.welcome = () =>{
-	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 🤗
+	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 su 🗿
 	
 ╭ 𝖭𝖺𝗆𝖺 :
 ├ 𝖴𝗆𝗎𝗋 :
 ├ 𝖦𝖾𝗇𝖽𝖾𝗋 :
 ├ 𝖠𝗌𝗄𝗈𝗍 :
-╰❒ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
+╰❒ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 Dek ~`
 }
 exports.leave = () =>{
-	return`Yah kok out 😣 Mental aman kan kak >.<
-Goodbye`
+	return`cih kok out 😣 Mental Hancur Kha dek? >.<
+sayonara`
 }
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
-Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+Cari Di YouTube Coba banh:v
 `
 }
 exports.tos = (ownernomer) => {
     return `
-*-------「 DONATE 」 -------*
+*—————「 *DONASI* 」—————*
 
 Hai kak ☺️ 
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
-
-Berapapun donasi kalian akan sangat berarti 👍
-
-Thanks!
+Kalian Bisa berdonasi juga via link berikut:): https://saweria.co/violetch
+*❏* Dana
+*❏* Gopay
+*❏* ovo
+*❏* pulsa
+Pulsa: 081220741811
+dana,dll: 081298309340
+𝙱𝙴𝚁𝙰𝙿𝙰𝙿𝚄𝙽 𝙳𝙾𝙽𝙰𝚂𝙸 𝙺𝙰𝙻𝙸𝙰𝙽 𝙰𝙺𝙰𝙽 𝚂𝙰𝙽𝙶𝙰𝚃 𝙱𝙴𝚁𝙰𝚁𝚃𝙸 𝙱𝙰𝙶𝙸 𝚂𝙰𝚈𝙰☕🗿
+—————「 *𝚃𝙷𝙰𝙽𝙺𝚈𝙾𝚄* 」—————
 
 Contact person Owner:
 wa.me/${ownernomer}
